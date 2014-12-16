@@ -1,0 +1,4 @@
+Warning[2058] D:\WORK\SOFT\dwengo\workspace\racing_robots\main.c 8 : call of function without prototype
+Warning[2103] D:\WORK\SOFT\dwengo\workspace\racing_robots\main.c 11 : default startup code expects main function declared as 'void main (void)'
+Warning[2058] D:\WORK\SOFT\dwengo\workspace\racing_robots\main.c 13 : call of function without prototype
+Warning[2058] D:\WORK\SOFT\dwengo\workspace\racing_robots\main.c 16 : call of function without prototype

@@ -12,7 +12,7 @@ int main () {
     // Call init
     _init();
 
-    while (true) {
+    while (1) {
         loop();
     }
 }
