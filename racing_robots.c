@@ -6,4 +6,6 @@ void init() {
 
 void loop() {
     // Drive
+    drive(100);
+    turn(100);
 }

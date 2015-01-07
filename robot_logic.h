@@ -1,8 +1,17 @@
+#ifndef ROBOT_LOGIC_H
+#define ROBOT_LOGIC_H
+
+#include "dwengoBoard.h"
+
+#include "dwengoSensorModule.h"
+#include "dwengoMotor.h"
+#include "dwengoDelay.h"
+
 typedef enum {
-    LED1 = 0,
-    LED2 = 1,
-    LED3 = 2,
-    LED4 = 3
+    LED01 = 0,
+    LED02 = 1,
+    LED03 = 2,
+    LED04 = 3
     //.....
 } LedIndex;
 
@@ -39,3 +48,5 @@ void led(LedIndex i, LedState state);
 
 // Wait for a number of milliseconds
 void doWait(int milliseconds);
+
+#endif

@@ -1,3 +1,5 @@
+#ifndef DWENGO_CONFIG_H
+#define DWENGO_CONFIG_H
 /*
  * Configuration
  * part of Dwengo library
@@ -97,5 +99,7 @@ __CONFIG(__CONFIG7H, _EBTRB_OFF_7H);
 #pragma config   EBTR1     =   OFF         // Table Read Protection bit Block 1
 //#pragma config   EBTR2     =   OFF         // Table Read Protection bit Block 2
 //#pragma config   EBTR3     =   OFF         // Table Read Protection bit Block 3
+
+#endif
 
 #endif
